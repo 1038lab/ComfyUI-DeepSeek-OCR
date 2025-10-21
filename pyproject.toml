@@ -1,0 +1,16 @@
+[project]
+name = "ComfyUI-DeepSeek-OCR"
+description = "A powerful OCR node for ComfyUI that integrates the DeepSeek-OCR model from Hugging Face."
+version = "0.0.1"
+license = {file = "LICENSE"}
+
+dependencies = ["torch>=2.0.0", "transformers>=4.46.0", "tokenizers>=0.15.0", "huggingface_hub", "einops", "addict", "easydict", "Pillow", "accelerate", "safetensors"]
+    
+[project.urls]
+Repository = "https://github.com/1038lab/ComfyUI-DeepSeek-OCR"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "ailab"
+DisplayName = "ComfyUI-DeepSeek-OCR"
+Icon = ""
