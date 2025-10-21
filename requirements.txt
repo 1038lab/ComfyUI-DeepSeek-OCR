@@ -1,0 +1,10 @@
+torch>=2.0.0
+transformers>=4.46.0
+tokenizers>=0.15.0
+huggingface_hub
+einops
+addict
+easydict
+Pillow
+accelerate
+safetensors
