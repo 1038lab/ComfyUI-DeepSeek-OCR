@@ -2,6 +2,11 @@
 
 A powerful OCR node for ComfyUI that integrates the DeepSeek-OCR model from Hugging Face.
 
+## Current Status
+
+> [!NOTE]  
+> ComfyUI-DeepSeek-OCR is currently in V0.0.1 beta status. Please stay tuned for future releases as we continue to refine and expand the functionality of this node.
+
 ## Features
 
 - ✅ Models stored directly in `ComfyUI/models/LLM/DeepSeek-OCR/` (no nested folders)
@@ -205,5 +210,6 @@ This makes the model folder clean and easy to manage.
 - This Node: https://github.com/1038lab/ComfyUI-DeepSeek-OCR
 
 ## License
+
 
 MIT License - follows DeepSeek-OCR model license.
